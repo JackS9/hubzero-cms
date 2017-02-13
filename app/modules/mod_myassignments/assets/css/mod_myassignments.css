@@ -1,0 +1,45 @@
+/**
+ * @package     hubzero-cms
+ * @file        modules/mod_myassignments/assets/css/mod_myassignments.css
+ * @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
+ * @license     http://opensource.org/licenses/MIT MIT
+ */
+
+/*
+
+	-- -- -- -- -- -- --
+	mod_myassignments
+	-- -- -- -- -- -- --
+
+*/
+
+	div.draggable .expandedlist li.assignments {
+		position: relative;
+	}
+	div.draggable .expandedlist li.assignments:before {
+		content: "\f08d";
+		font-family: "Fontcons";
+		position: absolute;
+		top: 0.6em;
+		left: 0.6em;
+		font-size: 1.4em;
+		line-height: 1;
+		color: #ccc;
+	}
+	div.draggable .expandedlist li.assignments:hover:before {
+		color: #999;
+	}
+	div.draggable .expandedlist li.assignments .pending {
+	}
+	div.draggable .expandedlist li.assignments .accepted {
+		color: #009900;
+	}
+	div.draggable .expandedlist li.assignments .rejected {
+		color: red;
+	}
+	div.draggable .expandedlist li.assignments span {
+		color: #fff;
+	}
+	div.draggable .expandedlist li.assignments span span {
+		color: #999;
+	}
